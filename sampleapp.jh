@@ -1,0 +1,7 @@
+entity Event {
+	title String required,
+    startDate LocalDate required,
+    endDate LocalDate required,
+    location String required,
+    maxParticipants Integer
+}
